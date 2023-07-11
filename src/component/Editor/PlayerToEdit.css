@@ -1,0 +1,73 @@
+.player{
+    /* padding-left: 160px; new*/
+    padding-top: 60px;
+    margin-top: -550px;
+    margin-left: 400px;
+    padding-left: 10%;
+    height: 100%px;
+    background-color: rgb(216, 235, 230);
+    
+  }
+
+  .player #ReactPlayer{
+    /* margin-top: 50px; */
+   text-align: center;
+  }
+
+   #file-upload-button {
+    padding:6px;
+    background-color: antiquewhite;
+  }
+
+  .play-button{
+    border-radius: 5px;
+    font-size: 2em;
+    padding:4px;
+    background-color: antiquewhite;
+  }
+
+  .play-button:hover{
+    background-color: rgb(201, 100, 63);
+  }
+
+  .pause-button{
+    border-radius: 5px;
+    font-size: 2em;
+    margin: 5px;
+    padding:4px;
+    background-color: antiquewhite;
+  }
+
+  .pause-button:hover{
+    background-color: bisque;
+  }
+
+  .stop-button{
+    border-radius: 5px;
+    font-size: 2em;
+    padding:4px;
+    background-color: antiquewhite;
+  }
+
+  .grid-container {
+
+    display: grid;
+    /* gap: 5px 10px; */
+    grid-template-columns: 390px 350px 75px;
+    margin-left: -50px;
+    padding: 2px;
+    width: 100%;
+    
+  }
+  
+  .grid-item {
+    margin: 5px;
+    width: 200px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+
+  .properties{
+  margin-left: 900px;
+  }
